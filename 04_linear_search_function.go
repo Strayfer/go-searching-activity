@@ -12,7 +12,7 @@ func linearSearch(numbers []int, target int) int {
 }
 
 func main() {
-	numbers := []int{4, 8, 12, 16, 20}
+	numbers := []int{4, 8, 12, 16, 20, 18}
 
 	// target exists
 	result1 := linearSearch(numbers, 18)
